@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    background-image: url(beach.jpg) ,linear-gradient(#eb01a5,#d13531);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    
+    
+}
+.collapse ul li{
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Times New Roman';
+    padding: 7%;
+}
+
+h1{
+    color: #ffff;
+    font-size: 100px;
+    margin: 5% 10%;
+
+    -webkit-text-stroke: 1px #F8F8F8;
+    text-shadow: 0px 1px 4px #23430C;
+}
+#text{
+    padding: 6%;
+    color: #ffff;
+    font-size: 15px;
+    line-height: 1.5rem;
+    font-family: 'Times New Roman';
+    text-shadow: 0px 11px 10px rgba(15, 14, 11, 0.8);
+    font-weight: bold;
+}
+
+button{
+    margin: 12px 30px;
+}
+.badge{
+    color: #ffffff;
+     border: 2px solid #ffffff;
+     text-shadow: -1px -1px 3px #dbd0d0, 
+     2px 2px 4px #c2b2b2;
+}
+.card-body{
+    background-color: aquamarine;
+
+}
+.card-body p{
+    color: #ffffff;
+    text-shadow: 0px 11px 10px rgba(15, 14, 11, 0.8);
+    
+}
+.card-body h5{
+    font-weight: bold;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #F8F8F8;
+    text-shadow: 0px 1px 4px #23430C;
+}
+.card{
+    box-shadow: rgb(253, 253, 253) 0px 22px 70px 4px;
+    transition: transform .5s;
+}
+.card:hover{
+    transform: translateY(-5vh);
+}
+.checked{
+    color: yellow;
+}
